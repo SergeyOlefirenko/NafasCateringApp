@@ -1,0 +1,28 @@
+{
+    "menu": [
+      {
+        "name": "Aladin",
+        "names": [
+            {
+                "Dips":
+                [
+            {
+                "subname": "Humus", 
+                "id1": "Is a smoky, rich, and creamy eggplant dip, traditionally made by mixing tender roasted (or charred) eggplant and nutty tahini and olive oil",
+                "image":"../images/img_1"
+            }
+                ]
+            },
+            {"Salate":
+            [
+                {
+                    "subname": "Humus", 
+                    "id1": "Is a smoky, rich, and creamy eggplant dip, traditionally made by mixing tender roasted (or charred) eggplant and nutty tahini and olive oil",
+                    "image":"../images/img_1"   
+                }
+            ]}, {"Ieigwaren":[]}, {"Extra":[]}]
+      }
+      
+    ]
+  }
+  
