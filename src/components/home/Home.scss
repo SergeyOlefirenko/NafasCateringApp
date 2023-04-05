@@ -1,0 +1,190 @@
+.home {
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  .arrow {
+    position: absolute;
+    height: 50px;
+    bottom: 230px;
+
+    &.left {
+      left: 10px;
+      transform: rotateY(180deg);
+    }
+
+    &.right {
+      right: 10px;
+    }
+  }
+  .slider {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 0%;
+
+    transition: all 0.5s ease-out;
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+//  .slider img{
+//     position: absolute;
+//     top: 60%;
+//     left:30%;
+//     width: 150px;
+//     height: 150px;
+//  }
+.slider-img {
+  position: absolute;
+  top: 300px;
+  width: 100%;
+  height: 150px;
+  transition: all 0.2s;
+}
+
+.slider-img-prev {
+  transform: translateX(-100%);
+}
+
+.slider-img-next {
+  transform: translateX(100%);
+}
+
+// Main page & video
+
+// .main{
+//     position: relative;
+// }
+.home-container {
+  position: absolute;
+  top: -260px;
+}
+.main-pic {
+  position: absolute;
+  top: 30px;
+  // margin-top: 320px;
+  display: flex;
+  width: 100%;
+  display: flex;
+}
+.main-pic .main-img {
+  width: 200px;
+  height: 170px;
+  margin-left: 1px;
+  margin-right: 10px;
+}
+.main-content h1 {
+  margin-top: -3%;
+  width: 140px;
+  font-size: 1em;
+  text-align: justify;
+  color: #085372;
+}
+.main-content p {
+  text-align: left;
+  color: #085372;
+}
+.home .btn {
+  margin-top: 5%;
+}
+
+.home .btn {
+  position: sticky;
+  margin-top: 130%;
+  margin-left: 30%;
+  border: 3.5px solid #085372;
+  outline: none;
+  padding: 0.75em 1em;
+  font-size: 1em;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 24px;
+  background: #f7bf48;
+  color: #085372;
+}
+.bi-arrow-right-circle-fill {
+  margin-left: -5px;
+  margin-right: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.wedding {
+  margin-top: 30px;
+  text-align: center;
+  width: 370px;
+  height: 100px;
+  z-index: -1;
+}
+.wedding h1 {
+  padding-top: 100px;
+  text-align: center;
+  z-index: -1;
+  color: #195277;
+  margin: 10px 10px;
+}
+.wedding p {
+  padding-top: 20px;
+  text-align: left;
+  z-index: -1;
+  color: #195277;
+  margin: 10px 10px;
+}
+#weddings .video {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  margin: 10px 40px;
+}
+video {
+  width: 300px;
+  height: 100px;
+}
+
+.footer {
+  display: flex;
+  margin-top: 620px;
+  width: 100%;
+  height: 100px;
+  background-color: #195277;
+  margin-left: -2%;
+}
+.footer-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.img-size img {
+  width: 10px;
+  height: 10px;
+}
+.menu-properties {
+  width: 130px;
+  height: 240px;
+  border: 0.5px solid #f7bf48;
+  border-radius: 5px;
+}
+.menu-content {
+  padding: 1%;
+}
+.name {
+  color: aqua;
+}
+.name:hover {
+  cursor: pointer;
+}
