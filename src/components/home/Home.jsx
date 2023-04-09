@@ -9,6 +9,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+
 const img = [
   <img src='https://ik.imagekit.io/1udpp4kd7/New_Folder/328156767_1592031647980857_3181544650669586076_n.jpg?updatedAt=1678804299284' className='' />,
   <img src='https://ik.imagekit.io/1udpp4kd7/New_Folder/325200699_146819674836778_5410344225198993090_n.jpg?updatedAt=1678804299271' className='' />,

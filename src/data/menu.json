@@ -1,0 +1,47 @@
+[
+    {
+        "id": 0,
+        "name": "Dish",
+        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
+        "category" : "Family",
+        "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/328156767_1592031647980857_3181544650669586076_n.jpg?updatedAt=1678804299284",
+        "price": "6 EUR"
+        
+      },
+      {
+        "id": 1,
+        "name": "Dish",
+        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
+        "category" : "Wedding",
+        "URL": "images/mascarpone.png",
+        "price": "6 EUR"
+       
+      },
+      {
+        "id": 2,
+        "name": "Dish",
+        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
+        "category" : "Family",
+        "URL": "images/mutabal.png",
+        "price": "6 EUR"
+      
+      },
+      {
+        "id": 3,
+        "name": "Dish",
+        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
+        "category" : "Wedding",
+        "URL": "images/fatayer.png",
+        "price": "6 EUR"
+       
+      },
+      {
+        "id": 4,
+        "name": "Dish",
+        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
+        "category" : "Birthday",
+        "URL": "https://media.istockphoto.com/id/1395845992/photo/summer-landscape-with-small-lake-in-forest.jpg?s=1024x1024&w=is&k=20&c=qTtdIWHvEvKZIkGbhHGcIhocFGocQvuJQERAEgmt_z0=",
+        "price": "6 EUR"
+        
+      }
+]
