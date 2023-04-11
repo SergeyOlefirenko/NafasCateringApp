@@ -1,9 +1,9 @@
 import React from 'react';
 import './Contacts.scss';
 
-
-export default function Communication() {
+function Communication() {
   return (
     <div className='contacts'>Contacts</div>
   )
 }
+export default (Communication)

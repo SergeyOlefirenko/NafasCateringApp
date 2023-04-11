@@ -1,47 +1,236 @@
 [
-    {
-        "id": 0,
-        "name": "Dish",
-        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
-        "category" : "Family",
-        "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/328156767_1592031647980857_3181544650669586076_n.jpg?updatedAt=1678804299284",
-        "price": "6 EUR"
-        
-      },
-      {
-        "id": 1,
-        "name": "Dish",
-        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
-        "category" : "Wedding",
-        "URL": "images/mascarpone.png",
-        "price": "6 EUR"
-       
-      },
-      {
-        "id": 2,
-        "name": "Dish",
-        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
-        "category" : "Family",
-        "URL": "images/mutabal.png",
-        "price": "6 EUR"
-      
-      },
-      {
-        "id": 3,
-        "name": "Dish",
-        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
-        "category" : "Wedding",
-        "URL": "images/fatayer.png",
-        "price": "6 EUR"
-       
-      },
-      {
-        "id": 4,
-        "name": "Dish",
-        "ingredients": "Zutat 1, Zutat 2, Zutat 3, ...",
-        "category" : "Birthday",
-        "URL": "https://media.istockphoto.com/id/1395845992/photo/summer-landscape-with-small-lake-in-forest.jpg?s=1024x1024&w=is&k=20&c=qTtdIWHvEvKZIkGbhHGcIhocFGocQvuJQERAEgmt_z0=",
-        "price": "6 EUR"
-        
-      }
+  {
+    "id": 0,
+    "name": "Humus",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/328156767_1592031647980857_3181544650669586076_n.jpg?updatedAt=1678804299284",
+    "ingredients": ["chickpeas", "sesame paste (tahini)","garlic","olive oil in most traditional versions"],
+    "package" : ["Aladin"],
+    "category" : "Dips",
+    "price": "6 EUR"
+  },
+  {
+    "id": 1,
+    "name": "Pink Humus",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/325200699_146819674836778_5410344225198993090_n.jpg?updatedAt=1678804299271",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Dips",
+    "price": "6 EUR"
+  },
+  {
+    "id": 2,
+    "name": "Muhamara",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/326872961_1531549257354232_120490123098077366_n.jpg?updatedAt=1678804299202",
+    "ingredients": ["", "","",""],
+    "package" : ["Aladin","1001 Nacht","Sahara"],
+    "category" : "Dips",
+    "price": "6 EUR"
+  },
+  {
+    "id": 3,
+    "name": "Mutabal",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/320121903_828389901764347_7121388961272615287_n.jpg?updatedAt=1678804298891",
+    "ingredients": ["", "","",""],
+    "package" : ["Aladin","1001 Nacht","Sahara"],
+    "category" : "Dips",
+    "price": "6 EUR"
+  },
+  {
+    "id": 4,
+    "name": "Fatoush",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/312811484_788292345603619_5846794769294431941_n.jpg?updatedAt=1678804297160",
+    "ingredients": ["Mediterranean fried bread", "lettuce","tomatoes","cucumbers","radishe","fried pieces of pita bread"],
+    "package" : ["Aladin","1001 Nacht","Sahara"],
+    "category" : "Salate",
+    "price": "6 EUR"
+  },
+  {
+    "id": 5,
+    "name": "Tabuleh",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/312811484_788292345603619_5846794769294431941_n.jpg?updatedAt=1678804297160",
+    "ingredients": ["parsley","tomatoes","bulgur","wheat","green onions"],
+    "package" : ["Aladin","1001 Nacht","Sahara"],
+    "category" : "Salate",
+    "price": "6 EUR"
+  },
+  {
+    "id": 6,
+    "name": "Fasuliye",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/314745039_785297745865405_7341021869218931862_n.jpg?updatedAt=1678804297195",
+    "ingredients": ["", "","",""],
+    "package" : ["Aladin","1001 Nacht","Sahara"],
+    "category" : "Salate",
+    "price": "6 EUR"
+  },
+  {
+    "id": 7,
+    "name": "Auberginen",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/319875162_560194015965645_9221237432673475214_n.jpg?updatedAt=1678804297122",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Salate",
+    "price": "6 EUR"
+  },
+  {
+    "id": 8,
+    "name": "Linsen",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/312823992_1889431548107945_8806827628538920087_n.jpg?updatedAt=1678804297083",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Salate",
+    "price": "6 EUR"
+  },
+  {
+    "id": 9,
+    "name": "Bulgur",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/315067148_1505742543272984_483843554596908564_n.jpg?updatedAt=1678804297093",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Salate",
+    "price": "6 EUR"
+  },
+  {
+    "id": 10,
+    "name": "Baba Ganush",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/312837093_1292804254819694_3185579282980503578_n.jpg?updatedAt=1678804297073",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Salate",
+    "price": "6 EUR"
+  },
+  {
+    "id": 11,
+    "name": "Fatayer Käse",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/312833034_852351882430138_6828767494364540818_n.jpg?updatedAt=1678804297011",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 12,
+    "name": "Fatayer Hackfleisch",
+    "URL": "https://ik.imagekit.io/1udpp4kd7/New_Folder/313227442_666668081763869_89823304136073010_n.jpg?updatedAt=1678804297033",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 13,
+    "name": "Fatayer Oregano",
+    "URL": "images/Fatayer-Oregano.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 14,
+    "name": "Fatayer Paprika",
+    "URL": "images/Fatayer-Paprika.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 15,
+    "name": "Sambusak Hackfleisch",
+    "URL": "images/Sambusak-Hackfleisch.jpg",
+    "ingredients": ["fried spiced ground beef", "onions","pine nuts"],
+    "package" : ["Aladin","1001 Nacht"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 16,
+    "name": "Sambusak Spinat",
+    "URL": "images/Sambusak-Spinat.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 17,
+    "name": "Pizza",
+    "URL": "images/Pizza.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 18,
+    "name": "Kibbeh",
+    "URL": "images/Kibbeh.jpg",
+    "ingredients": ["Deep fried veggie balls"],
+    "package" : ["1001 Nacht"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 19,
+    "name": "Mozarella Stick",
+    "URL": "images/Mozarella-Stick.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["Aladin","1001 Nacht","Sahara"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 20,
+    "name": "Musakhan",
+    "URL": "images/Musakhan.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["Aladin","1001 Nacht"],
+    "category" : "Teigwaren",
+    "price": "6 EUR"
+  },
+  {
+    "id": 21,
+    "name": "Yalangi",
+    "URL": "images/Yalangi.jpg",
+    "ingredients": ["Weinblätter", "","",""],
+    "package" : ["Aladin","1001 Nacht","Sahara"],
+    "category" : "Extra",
+    "price": "6 EUR"
+  },
+  {
+    "id": 22,
+    "name": "Kibeh Nayeh",
+    "URL": "images/Kibeh-Nayeh.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["1001 Nacht","Sahara"],
+    "category" : "Extra",
+    "price": "6 EUR"
+  },
+  {
+    "id": 23,
+    "name": "Milchreis mit Orangen Pudding",
+    "URL": "images/Milchreis-mit-Orangen-Pudding.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["Optional"],
+    "category" : "Dessert",
+    "price": "6 EUR"
+  },
+  {
+    "id": 24,
+    "name": "Griess und Mascarpone Rolle",
+    "URL": "images/Griess-und-Mascarpone-Rolle.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["Optional"],
+    "category" : "Dessert",
+    "price": "6 EUR"
+  },
+  {
+    "id": 25,
+    "name": "Mini Pancake mit Macarpone und Pistazien",
+    "URL": "images/Mini-Pancake-mit-Macarpone-und-Pistazien.jpg",
+    "ingredients": ["", "","",""],
+    "package" : ["Optional"],
+    "category" : "Dessert",
+    "price": "6 EUR"
+  }
 ]

@@ -8,10 +8,13 @@ import Menu from './components/menu/Menu';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import { createContext } from 'react';
 import { useState } from "react";
+import elements from "./data/sidebar.json"
+import dishes from "./data/menu.json"
 export const AppContext = createContext();
 
 function App() {
-  
+  const [navi, setNavi] = useState(elements)
+  const [data, setData] = useState(dishes)
   const[menuOpen, setMenuOpen] = useState(false)
   const navigate = useNavigate()
   
@@ -38,8 +41,10 @@ function App() {
   }
   return (
     <AppContext.Provider value={{
-      // menuOpen,
-      // setMenuOpen
+    navi,
+    setNavi,
+    data,
+    setData
      }}>
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -53,7 +58,7 @@ function App() {
  </Routes>
         {/* <Home />
         <Packages />
-        <Contacts />
+        <Contacts/>
         <Order /> */}
       </div>
     </div>

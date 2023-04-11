@@ -58,3 +58,39 @@
   height: 70px;
   margin-right: 20%;
 }
+.navi{
+  display: none;
+}
+@media screen and (min-width: 960px){
+  .navi{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left: -10%;
+  }
+  .hamburger {
+    :first-child {
+      display: none;
+      
+    }
+    :nth-child(2) {
+      display: none;
+    }
+    :nth-child(3) {
+      display: none;
+    
+    }
+    .sidebar-item.open > .sidebar-content{
+      height: auto;
+    }
+  }
+  .footer {
+    display: flex;
+    margin-top: 620px;
+    width: 100vw;
+    height: 100px;
+    background-color: #085372;
+    margin-left: -2%;
+  }
+  }
+  

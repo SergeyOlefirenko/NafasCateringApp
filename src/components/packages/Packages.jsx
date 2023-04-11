@@ -1,11 +1,13 @@
 import React from 'react';
 import './Packages.scss';
-import Dishes from "../../data/menu.json"
 import items from "../../data/dishes.json"
 import SidebarItem from '../menu/SidebarItem';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
+import { AppContext } from "../../App";
+
 
 function DishHandler() {
+const {data} = useContext(AppContext)
 const [showData, setShowData] = useState(false)
   return (
     <div>
@@ -14,8 +16,8 @@ const [showData, setShowData] = useState(false)
       </div>
     <div className='dishes'>
     <div className="card_section">
-      {Dishes &&
-        Dishes.map((dish) => {
+      {data &&
+        data.map((dish) => {
           return (
             <div
             key={dish.id}

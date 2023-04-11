@@ -1,9 +1,17 @@
 import React from "react";
 import "./Navbar.scss";
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import logo from '../../images/logo.png';
+import SidebarItem from '../menu/SidebarItem';
+import { AppContext } from "../../App";
+
+
 export default function Navbar({menuOpen, setMenuOpen}) {
+
+  const {navi} = useContext(AppContext)
   const [showText, setShowText] = useState(false)
+
+
   return (
     <div className={menuOpen ? "navbar active": "navbar"}>
       <div className="wrapper">
@@ -15,6 +23,9 @@ export default function Navbar({menuOpen, setMenuOpen}) {
           <div className='nav-logo'>
         <img src={logo} className='logo' alt='logo' />
         </div>
+        <div id='navi' className='navi'>
+      { navi.map((item) => <SidebarItem item={item}/>) }
+      </div>
         </div>
       </div>
   );
