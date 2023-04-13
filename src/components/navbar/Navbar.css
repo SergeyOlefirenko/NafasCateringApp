@@ -7,34 +7,31 @@
   top: 0;
   z-index: 3;
   transition: all 2s ease;
-  &.active {
-    // background-color: #F7BF48;
-    color: #085372;
-    .hamburger {
-      :first-child {
-        background-color: #f7bf48;
-        transform: rotate(40deg);
-      }
-      :nth-child(2) {
-        opacity: 0;
-      }
-      :nth-child(3) {
-        background-color: #f7bf48;
-        transform: rotate(-40deg);
-      }
-    }
+}
+.navbar .active{
+  color: #085372;
+}
+.active .hamburger {
+  :first-child {
+    background-color: #f7bf48;
+    transform: rotate(40deg);
   }
-  .wrapper {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    // flex-wrap: wrap;
-    // align-content: flex-end;
-    // justify-content: space-between;
-    gap: 100px;
-
-    .hamburger {
-      display: flex;
+  :nth-child(2) {
+    opacity: 0;
+  }
+  :nth-child(3) {
+    background-color: #f7bf48;
+    transform: rotate(-40deg);
+  }
+}
+.wrapper {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  gap: 100px;
+}
+.hamburger{
+  display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
@@ -42,17 +39,13 @@
       margin: 15px 15px;
       width: 32px;
       height: 22px;
-      span {
-        width: 100%;
-        height: 1.5px;
-        background: #f7bf48;
-        transform-origin: left;
-        // transition: all 1s ease;
-      }
-    }
-  }
 }
-
+.hamburger span{
+  width: 100%;
+  height: 1.5px;
+  background: #f7bf48;
+  transform-origin: left;
+}
 .logo {
   width: 70px;
   height: 70px;

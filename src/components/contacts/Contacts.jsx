@@ -1,9 +1,9 @@
 import React from 'react';
-import './Contacts.scss';
+import './Contacts.css';
 
 function Communication() {
   return (
-    <div className='contacts'>Contacts</div>
+    <div id="contacts" className='contacts'>Contacts</div>
   )
 }
 export default (Communication)

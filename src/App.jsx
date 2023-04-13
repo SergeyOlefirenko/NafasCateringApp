@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import Home from './components/home/Home';
 import Packages from './components/packages/Packages';
 import Contacts from './components/contacts/Contacts';
@@ -9,7 +9,7 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 import { createContext } from 'react';
 import { useState } from "react";
 import elements from "./data/sidebar.json"
-import dishes from "./data/menu.json"
+import dishes from "./data/data.json"
 export const AppContext = createContext();
 
 function App() {

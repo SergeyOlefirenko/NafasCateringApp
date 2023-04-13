@@ -1,5 +1,5 @@
 import { useState } from "react"
-import "./SidebarItem.scss";
+import "./SidebarItem.css";
 
 export default function SidebarItem({item}){
     const [open, setOpen] = useState(false) 

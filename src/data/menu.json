@@ -119,7 +119,7 @@
   {
     "id": 13,
     "name": "Fatayer Oregano",
-    "URL": "images/Fatayer-Oregano.jpg",
+    "URL": "./src/images/Fatayer-Oregano.jpg",
     "ingredients": ["", "","",""],
     "package" : ["1001 Nacht","Sahara"],
     "category" : "Teigwaren",

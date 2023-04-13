@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.scss";
+import "./Navbar.css";
 import { useState, useContext } from 'react';
 import logo from '../../images/logo.png';
 import SidebarItem from '../menu/SidebarItem';
